@@ -30,8 +30,6 @@ let galleryTop = new Swiper('.gallery-top', {
     }
 })
 
-
-
 // gsap animation
 const controlImg = document.querySelectorAll('.controls_img')
 function scrollAnimation(){
