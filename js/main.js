@@ -31,21 +31,7 @@ let galleryTop = new Swiper('.gallery-top', {
 })
 
 
-// popup
-const btnOpenVideo = document.querySelectorAll('.islands_video-content')
-const islandsPopup = document.getElementById('popup')
 
-function popUp(){
-    islandsPopup.classList.add('show-popup')
-
-}
-btnOpenVideo.forEach((b)=> {
-    b.addEventListener('click', popUp)
-})
-const btnCloseVideo = document.getElementById('popup-close')
-btnCloseVideo.addEventListener('click', ()=>{
-    islandsPopup.classList.remove('show-popup')
-})
 // gsap animation
 const controlImg = document.querySelectorAll('.controls_img')
 function scrollAnimation(){

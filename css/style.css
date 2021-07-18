@@ -173,22 +173,7 @@ img {
   font-size: 1.5rem;
   margin-left: 0.5rem;
 }
-.islands_video {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 0.75rem;
-}
-.islands_video-content {
-  display: inline-flex;
-  padding: 0.15rem;
-  background: var(--first-color-lighter);
-  border-radius: 50%;
-  cursor: pointer;
-}
-.islands_video-icon {
-  font-size: 1.8rem;
-  color: var(--first-color);
-}
+
 .islands_popup {
   display: none;
   position: absolute;
@@ -199,21 +184,7 @@ img {
   padding: 1rem 0.75rem;
   border-radius: 1rem;
 }
-.islands_popup-close {
-  position: absolute;
-  top: -0.75rem;
-  right: -0.75rem;
-  display: inline-flex;
-  padding-top: 0.35rem;
-  background-color: var(--first-color);
-  color: var(--first-color-lighter);
-  font-size: 1.2rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.show-popup {
-  display: block;
-}
+
 .controls_img {
   width: 35px;
   height: 35px;
@@ -248,10 +219,6 @@ img {
   .controls_container {
     column-gap: 0.25rem;
   }
-  .islands_popup-video {
-    width: 230px;
-    height: 100px;
-  }
 }
 @media screen and (min-width: 760px) {
   .nav {
@@ -276,21 +243,6 @@ img {
   .islands_description {
     padding-right: 5rem;
     margin-bottom: 2rem;
-  }
-  .islands_video {
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-  .islands_video-icon {
-    font-size: 3rem;
-  }
-  .islands_popup-video {
-    width: 500px;
-    height: 250px;
-  }
-  .islands_popup-close {
-    font-size: 1.5rem;
   }
   .controls {
     padding-right: 0.5rem;
